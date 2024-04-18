@@ -9,15 +9,15 @@ export const App = () => {
                 <div className="logo">
                     <Link to='/'><img src="/GXO_LOGO.png" alt=""/></Link>
                 </div>
-                <div className="search_bar">
-                    <form action="">
-                        <input type="text"/>
-                        <button>Submit</button>
-                    </form>
-                </div>
+                {/*<div className="search_bar">*/}
+                {/*    <form action="">*/}
+                {/*        <input type="text"/>*/}
+                {/*        <button>Submit</button>*/}
+                {/*    </form>*/}
+                {/*</div>*/}
                 <div className="user_menu">
-                    <button>S</button>
-                    <button>L</button>
+                    <Link to="/settings"><img src="/settings.png" alt=""/></Link>
+                    <Link to="/logout"><img src="/logout.png" alt=""/></Link>
                 </div>
             </div>
             <div className="navbar">

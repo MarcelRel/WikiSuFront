@@ -39,10 +39,24 @@
     padding: 5px 10px;
 }
 
-.user_menu button {
+.user_menu a {
     padding: 5px 10px;
-    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px
 }
+
+.user_menu img {
+    width: auto;
+    height: 50px;
+}
+
+.user_menu a:hover {
+    background-color: #dbdbdb;
+    color: #f0f0f0;
+    border-radius: 50%;
+}
+
 
 img {
     width: auto;
